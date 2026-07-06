@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<X version="1.0">
+    <V id="ARBE_NEWS">
+        <A>
+            <T key="news_1">
+                <P key="icon"><>/dev_hdd0/home/ZUKOSTORE/USRDIR/IMAGES/A_X_G_icon.png</></P>
+                <P key="title"><>ﺔﻣﺩﺎﻘﻟﺍ ﻯﺮﺒﻜﻟﺍ ﺔﻟﻮﻄﺒﻟﺍ</></P>
+                <P key="info"><>ﺰﺋﺍﻮﺠﻟﺍ ﻰﻠﻋ ﺲﻓﺎﻨﺘﻠﻟ ﺩﺭﻮﻜﺴﻳﺩ ﻲﻓ ﻥﻵﺍ ﻞﺠﺳ</></P>
+            </T>
+
+            <T key="news_2">
+                <P key="icon"><>/dev_hdd0/home/ZUKOSTORE/USRDIR/IMAGES/A_X_G_icon.png</></P>
+                <P key="title"><>ﻲﺿﺎﻤﻟﺍ ﻉﻮﺒﺳﻷﺍ ﻞﻄﺑ</></P>
+                <P key="info"><>ﻝﻭﻷﺍ ﺰﻛﺮﻤﻟﺎﺑ ﺰﺋﺎﻔﻟﺍ ﺐﻋﻼﻠﻟ ﺎﻨﻴﻧﺎﻬﺗ</></P>
+            </T>
+        </A>
+        <I>
+            <Q class="type:x-xmb/module-action" key="news_1" attr="news_1"/>
+            <Q class="type:x-xmb/module-action" key="news_2" attr="news_2"/>
+        </I>
+    </V>
+</X>
