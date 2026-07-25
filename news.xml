@@ -3,18 +3,12 @@
     <V id="NEWS_LIST">
         <A>
             <T key="news_1">
-                <P key="icon"><>https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/images/news1.png</></P>
-                <P key="title"><>ديدﺟ ﺪﻳﺪﺤﺗ ﺞﻣﺎﻧﺮﺒﻟ :1 ﺮﺒﺨﻟﺍ</></P>
-            </T>
-            
-            <T key="news_2">
-                <P key="icon"><>https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/images/news2.png</></P>
-                <P key="title"><>ﺍًﺒﻳﺮﻗ ﺪﻳﺪﺟ بﺎﻌﻟﺃ :2 ﺮﺒﺨﻟﺍ</></P>
+                <P key="icon"><>https://raw.githubusercontent.com/F-818-0/Arbe_X_Store/main/images/news1.png</></P>
+                <P key="title"><>اختبار الخبر الأول</></P>
             </T>
         </A>
         <I>
             <Q class="type:x-xmb/module-action" key="news_1" attr="news_1"/>
-            <Q class="type:x-xmb/module-action" key="news_2" attr="news_2"/>
         </I>
     </V>
 </X>
