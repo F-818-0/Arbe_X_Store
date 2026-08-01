@@ -1,7 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<update>
-    <version>1.0.0</version>
-    <build>1</build>
-    <message>الإصدار الأول من ZUKOSTORE.</message>
-    <update>false</update>
-</update>
+<X version="1.0">
+    <!-- القائمة الرئيسية التي يستدعيها الملف الرئيسي عبر NEWS_LIST -->
+    <V id="NEWS_LIST">
+        <A>
+            <!-- قسم الأخبار -->
+            <T key="news_sub">
+                <P key="icon"><>/dev_hdd0/home/ZUKOSTORE/USRDIR/IMAGES/soon.png</></P>
+                <P key="title"><>ﺭﺎﺒﺧﻻﺍ</></P>
+            </T>
+
+            <!-- قسم البطولات -->
+            <T key="tournaments_sub">
+                <P key="icon"><>/dev_hdd0/home/ZUKOSTORE/USRDIR/IMAGES/soon.png</></P>
+                <P key="title"><>ﺕﻻﻮﻄﺒﻟﺍ</></P>
+            </T>
+
+            <!-- قسم الحصريات -->
+            <T key="exclusives_sub">
+                <P key="icon"><>/dev_hdd0/home/ZUKOSTORE/USRDIR/IMAGES/soon.png</></P>
+                <P key="title"><>ﺕﺎﻳﺮﺼﺤﻟﺍ</></P>
+            </T>
+
+            <!-- قسم الشات -->
+            <T key="chat_sub">
+                <P key="icon"><>/dev_hdd0/home/ZUKOSTORE/USRDIR/IMAGES/soon.png</></P>
+                <P key="title"><>ﺕﺎﺸﻟﺍ</></P>
+            </T>
+        </A>
+        <I>
+            <Q class="type:x-xmb/folder-pixmap" key="news_sub" attr="news_sub" src="#NEWS_CATEGORY"/>
+            <Q class="type:x-xmb/folder-pixmap" key="tournaments_sub" attr="tournaments_sub" src="#TOURNAMENTS_CATEGORY"/>
+            <Q class="type:x-xmb/folder-pixmap" key="exclusives_sub" attr="exclusives_sub" src="#EXCLUSIVES_CATEGORY"/>
+            <Q class="type:x-xmb/folder-pixmap" key="chat_sub" attr="chat_sub" src="#CHAT_CATEGORY"/>
+        </I>
+    </V>
+
+    <!-- محتوى قسم الأخبار -->
+    <V id="NEWS_CATEGORY">
+        <A>
+            <T key="news_item_1">
+                <P key="icon"><>/dev_hdd0/home/ZUKOSTORE/USRDIR/IMAGES/soon.png</></P>
+                <P key="title"><>ARBE_X_STORE - الإصدار 1.0.0</></P>
+            </T>
+        </A>
+        <I>
+            <Q class="type:x-xmb/option" key="news_item_1" attr="news_item_1"/>
+        </I>
+    </V>
+
+    <!-- محتوى قسم البطولات -->
+    <V id="TOURNAMENTS_CATEGORY">
+        <A>
+            <T key="tournament_item_1">
+                <P key="icon"><>/dev_hdd0/home/ZUKOSTORE/USRDIR/IMAGES/soon.png</></P>
+                <P key="title"><>تأتي قريباً البطولات</></P>
+            </T>
+        </A>
+        <I>
+            <Q class="type:x-xmb/option" key="tournament_item_1" attr="tournament_item_1"/>
+        </I>
+    </V>
+
+    <!-- محتوى قسم الحصريات -->
+    <V id="EXCLUSIVES_CATEGORY">
+        <A>
+            <T key="exclusive_item_1">
+                <P key="icon"><>/dev_hdd0/home/ZUKOSTORE/USRDIR/IMAGES/soon.png</></P>
+                <P key="title"><>تأتي قريباً الحصريات</></P>
+            </T>
+        </A>
+        <I>
+            <Q class="type:x-xmb/option" key="exclusive_item_1" attr="exclusive_item_1"/>
+        </I>
+    </V>
+
+    <!-- محتوى قسم الشات -->
+    <V id="CHAT_CATEGORY">
+        <A>
+            <T key="chat_item_1">
+                <P key="icon"><>/dev_hdd0/home/ZUKOSTORE/USRDIR/IMAGES/soon.png</></P>
+                <P key="title"><>التواصل عبر الديسكورد</></P>
+            </T>
+        </A>
+        <I>
+            <Q class="type:x-xmb/option" key="chat_item_1" attr="chat_item_1"/>
+        </I>
+    </V>
+</X>
